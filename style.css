@@ -1,8 +1,4 @@
 /* style.css */
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     font-family: sans-serif;
     margin: 0;
@@ -109,7 +105,7 @@ nav ul li a:hover {
     color: #eee;
     line-height: 1.8;
 }
-/* 
+
 .hero .button {
     display: inline-block;
     background-color: var(--primary-color);
@@ -141,7 +137,7 @@ nav ul li a:hover {
 .hero .secondary-button:hover {
     background-color: var(--primary-color);
     color: var(--text-light);
-} */
+}
 
 .section {
     padding: 6rem 20px;
@@ -321,7 +317,7 @@ nav ul li a:hover {
     color: var(--text-light);
     transform: translateY(-2px);
 }
-/* 
+
 .portfolio-grid-section .button {
     display: block;
     margin: 3rem auto 0;
@@ -340,7 +336,7 @@ nav ul li a:hover {
 .portfolio-grid-section .button:hover {
     background-color: #0056b3;
     transform: translateY(-2px);
-} */
+}
 
 
 #contact {
@@ -381,7 +377,7 @@ nav ul li a:hover {
     border-color: var(--primary-color);
     box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
 }
-/* .button_s{
+.button_s{
     display: block;
     margin: 3rem auto 0;
     background-color: var(--primary-color);
@@ -399,7 +395,7 @@ nav ul li a:hover {
     background-color: #0056b3;
     transform: translateY(-2px);
     }
-     */
+    
 
 #contact textarea {
     resize: vertical;
@@ -520,7 +516,7 @@ footer p{
         transform: translateX(0);
     }
 }
-/* 
+
 .hero .button,
 .portfolio-grid-section .button,
 .portfolio-item .overlay a {
@@ -538,22 +534,5 @@ footer p{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 .hero .secondary-button:hover{
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-} */
-.btn {
-    background-color: var(--primary-color);
-    color: var(--text-light);
-    padding: 0.8rem 1.8rem;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    font-size: 1.1rem;
-    border: none;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
-}
-.btn:hover {
-    background-color: #0056b3;
-    transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }

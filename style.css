@@ -391,8 +391,7 @@ nav ul li a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
-.button_s :hover{
-
+.button_s:hover {
     background-color: #0056b3;
     transform: translateY(-2px);
     }
